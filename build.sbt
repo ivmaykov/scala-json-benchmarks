@@ -10,7 +10,10 @@ libraryDependencies ++= Seq(
   "org.json4s" %% "json4s-jackson" % "3.2.6",
   "org.json4s" %% "json4s-ext" % "3.2.6",
   "org.json4s" %% "json4s-native" % "3.2.7",
+  "io.argonaut" %% "argonaut" % "6.0.4",
+  "com.fasterxml.jackson.module" %% "jackson-module-scala" % "2.4.1",
   "io.spray" %%  "spray-json" % "1.2.6",
-  "com.jayway.jsonpath" % "json-path" % "0.9.1")
+  "com.jayway.jsonpath" % "json-path" % "0.9.1"
+)
 
 assemblySettings
